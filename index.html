@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCA Department</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/63/53/education-logo-template-vector-19306353.jpg" alt="University Logo" class="logo-img">
+            </div>
+            <div class="university-name">
+                <h1>DEMO</h1>
+                <p>MCA Department</p>
+            </div>
+        </div>
+        <div class="profile-section">
+            <div class="notification-icon" id="notificationIcon">
+                <i class="fas fa-bell"></i>
+                <span class="notification-badge">3</span>
+                <div class="dropdown notifications-dropdown" id="notificationsDropdown" style="display:none;">
+                    <p>No new notifications.</p>
+                </div>
+            </div>
+            <div class="profile-icon" id="profileIcon">
+                <i class="fas fa-user-circle"></i>
+                <span class="profile-name">VIKKI</span>
+                <div class="dropdown profile-dropdown" id="profileDropdown" style="display:none;">
+                    <a href="#">View Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#" id="logoutLink">Logout</a>
+                </div>
+            </div>
+            <div class="logout-icon" id="logoutIcon">
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li class="active" data-page="dashboard">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </li>
+                <li data-page="notes">
+                    <i class="fas fa-book"></i>
+                    <span>Class Notes</span>
+                </li>
+                <li data-page="timetable">
+                    <i class="fas fa-clock"></i>
+                    <span>Timetable</span>
+                </li>
+                <li data-page="exams">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Exam Schedule</span>
+                </li>
+                <li data-page="alerts">
+                    <i class="fas fa-bell"></i>
+                    <span>Alerts & Announcements</span>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="content-section active">
+                <div class="profile-box">
+                    <div class="profile-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1664372145541-4556b409492e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN0dWRlbnR8ZW58MHx8MHx8fDA%3D" alt="Student Photo">
+                    </div>
+                    <div class="profile-info">
+                        <h2>VIKKI</h2>
+                        <span>Student ID:</span><p>2024001</p>
+                        <span>Program:</span><p>Master of Computer Applications</p>
+                        <span>Status:</span><p>Active</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Class Notes Section -->
+            <section id="notes" class="content-section">
+                <h2>Class Notes</h2>
+                <div class="notes-container">
+                    <!-- Notes content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Timetable Section -->
+            <section id="timetable" class="content-section">
+                <h2>Timetable</h2>
+                <div class="timetable-container">
+                    <!-- Timetable content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Exam Schedule Section -->
+            <section id="exams" class="content-section">
+                <h2>Exam Schedule</h2>
+                <div class="exams-container">
+                    <!-- Exam schedule content will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Alerts Section -->
+            <section id="alerts" class="content-section">
+                <h2>Alerts & Announcements</h2>
+                <div class="alerts-container">
+                    <!-- Alerts content will be loaded here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2025 DEMO Name. All rights reserved.</p>
+                <p>Contact: info@DEMO.edu | +91987456321</p>
+            </div>
+            <div class="footer-center">
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Service</a>
+            </div>
+            <div class="footer-right">
+                <span>Follow us:</span>
+                <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
