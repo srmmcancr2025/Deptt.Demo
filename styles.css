@@ -67,8 +67,8 @@ body {
 
 .university-name h1 {
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 2.1rem;
-  font-weight: 900;
+  font-size: 1.8rem;
+  font-weight: 500;
   letter-spacing: 2px;
   margin: 0;
   color: #f7f5f5;
@@ -76,7 +76,7 @@ body {
   margin-left: 70px;
 }
 .university-name h1:hover {
-  color: #00000094;
+  color: #EEDC82;
   text-decoration: underline;
 }
 
