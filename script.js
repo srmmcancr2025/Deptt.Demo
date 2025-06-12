@@ -12,7 +12,7 @@ const sampleData = {
     timetable: [
         { day: 'Monday', time: '9:00 AM - 10:30 AM', subject: 'Data Structures', room: 'Room 101' },
         { day: 'Monday', time: '11:00 AM - 12:30 PM', subject: 'Database Management', room: 'Room 102' },
-        { day: 'Tuesday', time: '9:00 AM - 10:30 AM', subject: 'Web Development', room: 'Lab 1' }
+        { "Download time table from here.. please click here" }
     ],
     exams: [
         { subject: 'Data Structures', date: '2024-04-15', time: '9:00 AM - 12:00 PM', room: 'Room 101' },
